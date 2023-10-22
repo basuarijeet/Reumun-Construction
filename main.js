@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let per = 0;
     function progressLoad() {
-        if (per < 84) {
+        if (per < 68) {
             progress.style.width = `${per}%`;
             percentage.innerHTML = `${per}%`;
             per++;
